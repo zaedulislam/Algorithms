@@ -15,3 +15,4 @@ Problem Link:
 ### Kadane’s Algorithm
 - [Kadane’s Algorithm — (Dynamic Programming) — How and Why does it Work?](https://medium.com/@rsinghal757/kadanes-algorithm-dynamic-programming-how-and-why-does-it-work-3fd8849ed73d)
 - [Kadane's Algorithm to Maximum Sum Subarray Problem](https://youtu.be/86CQq3pKSUw)
+- https://www.notion.so/islamzaedul/Kadane-s-Algorithm-9322e068bd434f5984693ea943c439b6
