@@ -10,3 +10,8 @@ Problem Link:
 8. http://codeforces.com/problemset/problem/701/C
 9. https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum/description/
 10. https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=2531 (Variant 2)
+
+
+### Kadane’s Algorithm
+- [Kadane’s Algorithm — (Dynamic Programming) — How and Why does it Work?](https://medium.com/@rsinghal757/kadanes-algorithm-dynamic-programming-how-and-why-does-it-work-3fd8849ed73d)
+- [Kadane's Algorithm to Maximum Sum Subarray Problem](https://youtu.be/86CQq3pKSUw)
