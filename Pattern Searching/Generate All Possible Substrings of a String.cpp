@@ -7,22 +7,18 @@ Complexity: O(n^3)
 #include<string>
 using namespace std;
 
-string S;
 
-
-
-
-void GenerateAllSubstr()
+void GenerateAllSubstr(string S)
 {
     int I, J, K, len = S.length();
 
-    /// Outermost loop picks the starting character
+    // Outermost loop picks the starting character
     for(I = 0; I < len; I++)
     {
-        /// Mid loop considers all characters on right of the picked character as ending character of substring
+        // Mid loop considers all characters on right of the picked character as ending character of substring
         for(J = I; J < len; J++)
         {
-            /// Innermost loop print the characters from current starting point to current end point
+            // Innermost loop print the characters from current starting point to current end point
             for(K = I; K <= J; K++)
                 cout << S[K];
 
@@ -36,18 +32,17 @@ void GenerateAllSubstr()
 }
 
 
-
-void GenerateAllSubstrLenWise()
+void GenerateAllSubstrLenWise(string S)
 {
     int I, J, K, limit, len = S.length();
 
-    /// Fix the substring's length
+    // Fix the substring's length
     for(I = 1; I <= len; I++)
     {
-        /// Pick starting point
+        // Pick starting point
         for(J = 0; J <= len - I; J++)
         {
-            /// Pick ending point
+            // Pick ending point
             limit = J + I - 1;
             for(K = J; K <= limit; K++)
                 cout << S[K];
@@ -64,8 +59,8 @@ void GenerateAllSubstrLenWise()
 int main()
 {
     cin >> S;
-    GenerateAllSubstr();
-    GenerateAllSubstrLenWise();
+    GenerateAllSubstr(S);
+    GenerateAllSubstrLenWise(S);
 }
 
 /*
